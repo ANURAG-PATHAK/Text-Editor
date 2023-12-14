@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="NotePadLibrary.EditManager">
+    <Position X="5.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQABAAAAAAAQBAAAAAAAAAAAgEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EditManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NotePadLibrary.FileManager">
+    <Position X="7.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FileManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NotePadLibrary.SearchManager">
+    <Position X="9.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAQKA=</HashCode>
+      <FileName>SearchManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NotePadLibrary.UndoRedoManager">
+    <Position X="11.25" Y="5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAABAAAAAgAAIAAAAAAAAAA=</HashCode>
+      <FileName>UndoRedoManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NotePadLibrary.ViewManager">
+    <Position X="13.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAQAAAAAAAgAAAAAAAgAAAAAAAAAAAAAIACICAAA=</HashCode>
+      <FileName>ViewManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="NotePadLibrary.IEditManager">
+    <Position X="5.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQABAAAAAAAQBAAAAAAAAAAAgEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IEditManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NotePadLibrary.IFileManager">
+    <Position X="7.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAIAAAAAEAAABAAAAAEAAA=</HashCode>
+      <FileName>IFileManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NotePadLibrary.ISearchMananger">
+    <Position X="9.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAQKA=</HashCode>
+      <FileName>ISearchMananger.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NotePadLibrary.IUndoRedoManager">
+    <Position X="11.25" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAABAAAAAgAAIAAAAAAAAAA=</HashCode>
+      <FileName>IUndoRedoManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NotePadLibrary.IViewManager">
+    <Position X="13.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAQAAAAAAAgAAAAAAAgAAAAAAAAAAAAAIACICAAA=</HashCode>
+      <FileName>IViewManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

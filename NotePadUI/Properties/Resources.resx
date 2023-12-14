@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="copyToolStripMenuItem" xml:space="preserve">
+    <value>copyToolStripMenuItem</value>
+  </data>
+  <data name="Cut" xml:space="preserve">
+    <value>Cut</value>
+  </data>
+  <data name="cutToolStripMenuItem" xml:space="preserve">
+    <value>cutToolStripMenuItem</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="deleteToolStripMenuItem" xml:space="preserve">
+    <value>deleteToolStripMenuItem</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="editToolStripMenuItem" xml:space="preserve">
+    <value>editToolStripMenuItem</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="exitToolStripMenuItem" xml:space="preserve">
+    <value>exitToolStripMenuItem</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="fileToolStripMenuItem" xml:space="preserve">
+    <value>fileToolStripMenuItem</value>
+  </data>
+  <data name="FindNext" xml:space="preserve">
+    <value>FindNext</value>
+  </data>
+  <data name="FindNextText" xml:space="preserve">
+    <value>Find Next</value>
+  </data>
+  <data name="FindReplace" xml:space="preserve">
+    <value>FindReplace</value>
+  </data>
+  <data name="FindWhat" xml:space="preserve">
+    <value>FindWhat</value>
+  </data>
+  <data name="FindWhatText" xml:space="preserve">
+    <value>Find What</value>
+  </data>
+  <data name="FindWhatTextBox" xml:space="preserve">
+    <value>FindWhatTextBox</value>
+  </data>
+  <data name="Font" xml:space="preserve">
+    <value>Font...</value>
+  </data>
+  <data name="fontToolStripMenuItem" xml:space="preserve">
+    <value>fontToolStripMenuItem</value>
+  </data>
+  <data name="Format" xml:space="preserve">
+    <value>Format</value>
+  </data>
+  <data name="formatToolStripMenuItem" xml:space="preserve">
+    <value>formatToolStripMenuItem</value>
+  </data>
+  <data name="Goto" xml:space="preserve">
+    <value>Goto</value>
+  </data>
+  <data name="gotoToolStripMenuItem" xml:space="preserve">
+    <value>gotoToolStripMenuItem</value>
+  </data>
+  <data name="Main" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="MatchCase" xml:space="preserve">
+    <value>Match Case</value>
+  </data>
+  <data name="matchCaseCheckBox" xml:space="preserve">
+    <value>matchCaseCheckBox</value>
+  </data>
+  <data name="menuStrip1" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="New" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="newToolStripMenuItem" xml:space="preserve">
+    <value>newToolStripMenuItem</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="openToolStripMenuItem" xml:space="preserve">
+    <value>openToolStripMenuItem</value>
+  </data>
+  <data name="Paste" xml:space="preserve">
+    <value>Paste</value>
+  </data>
+  <data name="pasteToolStripMenuItem" xml:space="preserve">
+    <value>pasteToolStripMenuItem</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="printToolStripMenuItem" xml:space="preserve">
+    <value>printToolStripMenuItem</value>
+  </data>
+  <data name="Redo" xml:space="preserve">
+    <value>Redo</value>
+  </data>
+  <data name="redoToolStripMenuItem" xml:space="preserve">
+    <value>redoToolStripMenuItem</value>
+  </data>
+  <data name="Replace" xml:space="preserve">
+    <value>Replace</value>
+  </data>
+  <data name="ReplaceAll" xml:space="preserve">
+    <value>Replace All</value>
+  </data>
+  <data name="replaceAllToolStripMenuItem" xml:space="preserve">
+    <value>replaceAllToolStripMenuItem</value>
+  </data>
+  <data name="ReplaceButton" xml:space="preserve">
+    <value>ReplaceButton</value>
+  </data>
+  <data name="ReplaceText" xml:space="preserve">
+    <value>Replace</value>
+  </data>
+  <data name="replaceToolStripMenuItem" xml:space="preserve">
+    <value>replaceToolStripMenuItem</value>
+  </data>
+  <data name="ReplaceWhatText" xml:space="preserve">
+    <value>Replace What</value>
+  </data>
+  <data name="ReplaceWith" xml:space="preserve">
+    <value>ReplaceWith</value>
+  </data>
+  <data name="ReplaceWithText" xml:space="preserve">
+    <value>Replace With</value>
+  </data>
+  <data name="ResetZoom" xml:space="preserve">
+    <value>Reset Zoom</value>
+  </data>
+  <data name="resetZoomToolStripMenuItem" xml:space="preserve">
+    <value>resetZoomToolStripMenuItem</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Saveas" xml:space="preserve">
+    <value>Save As</value>
+  </data>
+  <data name="saveAsToolStripMenuItem" xml:space="preserve">
+    <value>saveAsToolStripMenuItem</value>
+  </data>
+  <data name="saveToolStripMenuItem" xml:space="preserve">
+    <value>saveToolStripMenuItem</value>
+  </data>
+  <data name="SearchAndReplace" xml:space="preserve">
+    <value>Search And Replace</value>
+  </data>
+  <data name="searchAndReplaceToolStripMenuItem" xml:space="preserve">
+    <value>searchAndReplaceToolStripMenuItem</value>
+  </data>
+  <data name="Selectall" xml:space="preserve">
+    <value>Select all</value>
+  </data>
+  <data name="selectAllToolStripMenuItem" xml:space="preserve">
+    <value>selectAllToolStripMenuItem</value>
+  </data>
+  <data name="Separator" xml:space="preserve">
+    <value>Separator</value>
+  </data>
+  <data name="StatusString" xml:space="preserve">
+    <value>Ln {0}, Col {1}</value>
+  </data>
+  <data name="Text" xml:space="preserve">
+    <value>Notepad</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>Undo</value>
+  </data>
+  <data name="undoToolStripMenuItem" xml:space="preserve">
+    <value>undoToolStripMenuItem</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="viewToolStripMenuItem" xml:space="preserve">
+    <value>viewToolStripMenuItem</value>
+  </data>
+  <data name="WordWrap" xml:space="preserve">
+    <value>Word Wrap</value>
+  </data>
+  <data name="wordWrapToolStripMenuItem" xml:space="preserve">
+    <value>wordWrapToolStripMenuItem</value>
+  </data>
+  <data name="ZoomIn" xml:space="preserve">
+    <value>Zoom In</value>
+  </data>
+  <data name="zoomInToolStripMenuItem" xml:space="preserve">
+    <value>zoomInToolStripMenuItem</value>
+  </data>
+  <data name="ZoomOut" xml:space="preserve">
+    <value>Zoom Out</value>
+  </data>
+  <data name="zoomOutToolStripMenuItem" xml:space="preserve">
+    <value>zoomOutToolStripMenuItem</value>
+  </data>
+</root>
